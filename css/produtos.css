@@ -69,3 +69,113 @@
 .produto_info ul li:nth-child(even) {
     border-left: 2px solid #000;
 }
+
+/* Orçamento */
+.orcamento {
+    width: 100%;
+    background: #000;
+    margin-top: 60px;
+    padding: 40px 0;
+}
+
+.orcamento h2 {
+    color: #fec63e;
+}
+
+.orcamento h2:after {
+    content: "";
+    display: block;
+    background: #fec63e;
+    width: 60px;
+    height: 3px;
+    margin: 14px auto;
+    line-height: 20px;
+
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    color: #fff;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    border: #fec63e 4px solid;
+    background: none;
+    color: #fff;
+    padding: 6px 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    border: #fec63e 4px solid;
+    background: none;
+    color: #fff;
+    padding: 6px 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+.form button {
+    background: none;
+    cursor: pointer;
+    padding: 7px 40px;
+}
+
+.orcamento_dados {
+    color: #fff;
+}
+
+.orcamento_dados h3 {
+    color: #fec63e;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.orcamento_dados span {
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.dados_email {
+    margin-bottom: 40px;
+}
+
+.orcamento_dados ul {
+    padding-right: 60px;
+}
+
+.orcamento_dados ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.orcamento_dados ul li:nth-child(odd) {
+    background: #1d1d1d;
+}
+
+.orcamento_dados p {
+    margin: 8px 0;
+}
