@@ -16,6 +16,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -88,12 +89,14 @@ img {
     text-align: center;
     color: #fff;
     padding-top: 30px;
+    text-shadow: #222 1px 1px;
 }
 
 .introducao_interna h1 {
     text-transform: uppercase;
     font-size: 36px;
     font-weight: bold;
+
 }
 
 .introducao_interna h1:after {
@@ -163,6 +166,7 @@ img {
     font-size: 48px;
     font-weight: bold;
     color: #fff;
+    text-shadow: #222 1px 1px;
 }
 
 .quote-externo {
@@ -170,11 +174,11 @@ img {
     margin: 0 auto;
     margin-bottom: 40px;
     color: #fff;
+    text-shadow: #222 1px 1px;
 }
 
 .quote-externo p {
     font-style: italic;
-    text-shadow: #222 1px 1px;
 }
 
 /* criando linha (estilo borda) antes e depois do elemento */
